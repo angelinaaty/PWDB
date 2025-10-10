@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Registrasi Data Mahasiswa</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulir Registrasi Data Mahasiswa</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="1" cellpadding="4" border="1" style="border-collapse: collapse; width: 80%;">
+            <tr>
+                <td><strong><label for="nomhs">Nomor Mahasiswa</label></strong></td>
+                <td><input type="text" id="nomhs" name="nomhs" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="namamhs">Nama Mahasiswa</label></strong></td>
+                <td><input type="text" id="namamhs" name="namamhs" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="jk">Jenis Kelamin</label></strong></td>
+                <td>
+                    <input type="radio" id="jk" name="jk" value="Laki-Laki" />Laki-Laki
+                    <input type="radio" id="jk" name="jk" value="Perempuan" />Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td><strong><label for="prodi">Program Studi</label></strong></td>
+                <td>
+                    <select id="prodi" name="prodi">
+                        <option>Informatika</option>
+                        <option>Teknik Industri</option>
+                        <option>Sistem Informasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong><label for="email">Alamat Email</label></strong></td>
+                <td><input type="text" id="email" name="email" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="telepon">Nomor Telepon</label></strong></td>
+                <td><input type="text" id="telepon" name="telepon" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="password">Password</label></strong></td>
+                <td><input type="password" id="password" name="password" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="photo">Photo</label></strong></td>
+                <td><input type="file" id="photo" name="photo" size="18" accept="image/gif, image/jpeg, image/png" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="namasmu">Nama Sekolah Asal (SMU)</label></strong></td>
+                <td><input type="text" id="namasmu" name="namasmu" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="alamatsmu">Alamat Sekolah Asal (SMU)</label></strong></td>
+                <td><input type="text" id="alamatsmu" name="alamatsmu" size="30" /></td>
+            </tr>
+            <tr>
+                <td><strong><label for="teleponsmu">Telepon Sekolah Asal (SMU)</label></strong></td>
+                <td><input type="text" id="teleponsmu" name="teleponsmu" size="30" /></td>
+            </tr>
+            <tr>
+                <td valign="top"><p><strong><label for="musik">Hal Favorit</label></strong></p></td>
+                <td>
+                    <p><strong>Musik</strong><br />
+                    <input type="checkbox" id="musik" name="musik" value="Pop" />Pop
+                    <input type="checkbox" id="musik" name="musik" value="Rock" />Rock
+                    <input type="checkbox" id="musik" name="musik" value="Jazz" />Jazz</p>
+                    <p><strong>Film</strong><br />
+                    <input type="checkbox" id="film" name="film" value="Drama" />Drama
+                    <input type="checkbox" id="film" name="film" value="Action" />Action
+                    <input type="checkbox" id="film" name="film" value="Sci-Fi" />Sci-Fi</p>
+                    <p><strong>Makanan</strong><br />
+                    <input type="checkbox" id="makanan" name="makanan" value="Seafood" />Seafood
+                    <input type="checkbox" id="makanan" name="makanan" value="Tradisional" />Tradisional
+                    <input type="checkbox" id="makanan" name="makanan" value="Fastfood" />Fastfood</p>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top"><strong><label for="resume">Resume</label></strong></td>
+                <td><textarea id="resume" name="resume" rows="10" cols="23"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" id="simpan" name="simpan" value="Simpan" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
