@@ -1,0 +1,104 @@
+* {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    color: #3b2c2c;
+}
+
+body{
+    background-color: #fff9f8;
+    margin: 30px;
+    padding-bottom: 40px;
+}
+
+h1{
+    color: #b76e79;
+    font-size: 25px;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+fieldset{
+    background-color: #ffffff;
+    margin-bottom: 18px;
+    padding: 18px;
+    border: 3px solid #e7bcbc;
+}
+
+legend{
+    color: #c48f57;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    margin-bottom: 12px;
+}
+
+label{
+    color: #5a3b3b;
+    font-weight: bold;
+}
+
+input[type="text"], select{
+    padding: 8px;
+    color: #3b2c2c;
+    border: 3px solid #cfa5a0;
+    background-color: #fff6f5;
+    width: 300px;
+    font-size: 17px;
+}
+
+input[type="radio"]{
+    margin-right: 8px;
+}
+
+input[type="submit"]{
+    color:#fff8e1;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #b76e79;
+    border-radius: 7px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 5px solid #d4af37;
+}
+
+input[type="submit"]:hover{
+    background-color: #c99382;
+    color: #fff;
+    border-color: #c9a646;
+}
+
+fieldset ol li input{
+    border-radius: 7px;
+}
+
+#email{
+    background-color: #f3f2f1;
+    font-style: italic;
+}
+
+input, select{
+    font-size: 14px;
+}
+
+p{
+    text-align: center;
+}
+
+form{
+    padding: 25px;
+    background-color: #fffdfc;
+    margin: 0 auto;
+    border: 5px solid #e8c6c3;
+    box-shadow: 6px 6px 10px #e3cfc8;
+    width: 550px;
+}
