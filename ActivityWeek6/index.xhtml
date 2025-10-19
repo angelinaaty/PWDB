@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+     <h1>Reservation Hotel Room</h1>
+     <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <ol>
+                <li>
+                    <label for="nama">Name</label><br />
+                    <input type="text" id="nama" name="nama" size="30"/>
+                </li>
+                <li>
+                    <label for="gender">Gender</label><br />
+                    <input type="text" id="gender" name="gender" size="30"/>
+                </li>
+                <li>
+                    <label for="email">Email Address</label><br />
+                    <input type="text" id="email" name="email" size="30"/>
+                </li>
+                <li>
+                    <label for="phone_number">Phone Number</label><br />
+                    <input type="text" id="phone_number" name="phone_number" size="30"/>
+                </li>
+            </ol>
+        </fieldset>
+
+        <fieldset>
+            <legend>Reservation Room Form</legend>
+            <ol>
+                <li>
+                    <label for="reservor_name">Reservator Name</label><br />
+                    <input type="text" id="reservor_name" name="reservor_name" size="30"/>
+                </li>
+                <li>
+                    <label for="booking_date">Booking date</label><br />
+                    <input type="text" id="booking_date" name="booking_date" size="30"/>
+                </li>
+                <li>
+                    <label for="room_type">Room Type</label><br />
+                    <select id="room_type" name="room_type">
+                        <option>Deluxe</option>
+                        <option>Standard</option>
+                        <option>Suite</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="bed_type">Bed Type</label><br />
+                    <select id="bed_type" name="bed_type">
+                        <option>Single Bed</option>
+                        <option>Double Bed</option>
+                        <option>Queen size</option>
+                        <option>King size</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Breakfast</label><br />
+                    <input type="radio" id="with_breakfast" name="breakfast" value="With Breakfast" />With Breakfast
+                    <input type="radio" id="without_breakfast" name="breakfast" value="Without Breakfast" />Without Breakfast
+                </li>  
+            </ol>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Payment</legend>
+            <ol>
+                <li>
+                    <label for="check_in_date">Check in date</label><br />
+                    <input type="text" id="check_in_date" name="check_in_date" size="30"/>
+                </li>
+                <li>
+                    <label for="check_out_date">Check out date</label><br />
+                    <input type="text" id="check_out_date" name="check_out_date" size="30"/>
+                </li>
+                <li>
+                    <label for="payment_method">Payment Method</label><br />
+                    <select id="payment_method" name="payment_method">
+                        <option>Cash</option>
+                        <option>Qris</option>
+                        <option>Debit/credit card</option>
+                    </select>
+                </li>
+            </ol>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Submit" />
+        </p>
+        
+    </form>
+        
+</body>
+</html>
